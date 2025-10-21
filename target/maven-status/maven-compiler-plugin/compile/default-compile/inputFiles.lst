@@ -1,0 +1,16 @@
+/Users/faz/Desktop/JournalApp/backend/src/main/java/com/journalapp/backend/BackendApplication.java
+/Users/faz/Desktop/JournalApp/backend/src/main/java/com/journalapp/backend/config/SecurityConfig.java
+/Users/faz/Desktop/JournalApp/backend/src/main/java/com/journalapp/backend/config/WebConfig.java
+/Users/faz/Desktop/JournalApp/backend/src/main/java/com/journalapp/backend/controllers/JournalController.java
+/Users/faz/Desktop/JournalApp/backend/src/main/java/com/journalapp/backend/controllers/UserController.java
+/Users/faz/Desktop/JournalApp/backend/src/main/java/com/journalapp/backend/dto/ApiResponse.java
+/Users/faz/Desktop/JournalApp/backend/src/main/java/com/journalapp/backend/dto/JournalRequest.java
+/Users/faz/Desktop/JournalApp/backend/src/main/java/com/journalapp/backend/dto/JournalResponse.java
+/Users/faz/Desktop/JournalApp/backend/src/main/java/com/journalapp/backend/entity/Journal.java
+/Users/faz/Desktop/JournalApp/backend/src/main/java/com/journalapp/backend/entity/User.java
+/Users/faz/Desktop/JournalApp/backend/src/main/java/com/journalapp/backend/exceptions/GlobalExceptionHandler.java
+/Users/faz/Desktop/JournalApp/backend/src/main/java/com/journalapp/backend/exceptions/JournalNotFoundException.java
+/Users/faz/Desktop/JournalApp/backend/src/main/java/com/journalapp/backend/exceptions/JournalSaveException.java
+/Users/faz/Desktop/JournalApp/backend/src/main/java/com/journalapp/backend/repository/JournalRepo.java
+/Users/faz/Desktop/JournalApp/backend/src/main/java/com/journalapp/backend/repository/UserRepo.java
+/Users/faz/Desktop/JournalApp/backend/src/main/java/com/journalapp/backend/services/JournalService.java

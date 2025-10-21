@@ -2,6 +2,7 @@ package com.journalapp.backend.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "journals")
@@ -19,25 +20,20 @@ public class Journal {
     @NotBlank(message = "Journal Content is Required")
     private String content;
 
-    @Column(columnDefinition = "VARCHAR(255) DEFAULT 'anonymous'")
-    private String author = "anonymous";
+    @ManyToOne(fetch = FetchType.LAZY)
+    @NotNull(message = "Username is required")
+    @JoinColumn(name = "user_id")
+    private User user;
 
-    @PrePersist
+    /*@PrePersist
     public void prePersist() {
         if (this.author == null || this.author.trim().isEmpty()) {
             this.author = "anonymous";
         }
-    }
+    }*/
 
     public Journal() {}
 
-    public String getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
-    }
 
     public Long getId() {
         return id;
@@ -61,5 +57,13 @@ public class Journal {
 
     public void setContent(String content) {
         this.content = content;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 }

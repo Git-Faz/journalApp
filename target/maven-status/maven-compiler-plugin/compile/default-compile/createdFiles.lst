@@ -1,0 +1,3 @@
+com/journalapp/backend/entity/Journal.class
+com/journalapp/backend/services/JournalService.class
+com/journalapp/backend/controllers/JournalController.class

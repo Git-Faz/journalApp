@@ -1,8 +1,5 @@
 package com.journalapp.backend.dto;
 
-import com.journalapp.backend.entity.Journal;
-import java.util.List;
-
 public class ApiResponse<T> {
     private String message;
     private T data;
